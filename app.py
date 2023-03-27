@@ -1,6 +1,3 @@
-#install streamlit, one time execution
-#import streamlit
-import streamlit as st
 import numpy as np
 import streamlit as st
 import pandas as pd
@@ -49,6 +46,4 @@ st.write(iris.target_names)
 
 st.subheader('Prediction Probability')
 st.write(prediction_probabilities)
-!npm install localtunnel
-!streamlit run /content/app.py &>/content/logs.txt &
-!npx localtunnel --port 8501
+
